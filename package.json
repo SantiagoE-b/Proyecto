@@ -14,5 +14,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoE-b/Proyecto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SantiagoE-b/Proyecto/issues"
+  },
+  "homepage": "https://github.com/SantiagoE-b/Proyecto#readme",
   "description": ""
 }
