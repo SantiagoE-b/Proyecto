@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta  name ="Descripcion" content="Los Mejores productos gaming">
-    <meta name="keywords" content="Gaming, Computacion, Tecnologia,Auriculares, Placas de video, Monitores, Teclados,">
-    <title>Arma Tu pc-WG</title>
+  <meta name="keywords" content="Gaming, Computacion, Tecnologia"> 
+    <!-- Titulo -->
+    <title>WHIRLWIND GAMING</title>
+    <!-- Descripción -->
+    <meta name="description" content="Gaming, Computacion, Armado de computadoras">
+     <!-- Open graph -->
+    <meta property= "og:title" content="Gaming, Tecnologia">
+    <meta property= "og:image" content="W.G">
+    <meta property= "og:locale" content="es_ES">
+    <title>Arma tu pc-WG</title>
+    <!--Icono navegador-->
+    <link rel="shortcut icon" href="Imagenes/logo.png" type="image/x-icon">
     <!--Estilos css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
@@ -16,58 +25,69 @@
 </head>
 <body class="BackgroundColor">
  <header>  
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#">WHIRLWIND GAMING</a>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Arma-tu-pc.html">Arma Tu PC</a>
-                  <ul class="submenu">
-                <li><a href="Arma-tu-pc.html">Placas de video</a></li>
-                <li><a href="Arma-tu-pc.html">Procesadores</a></li>
-                <li><a href="Arma-tu-pc.html">Fuentes</a></li>
-                <li><a href="Arma-tu-pc.html">Gabinetes</a></li>
-                <li><a href="Arma-tu-pc.html">Motherboards</a></li>
-                <li><a href="Arma-tu-pc.html">Memorias ram</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="Accesorios.html" tabindex="-1" aria-disabled="false">Accesorios</a>
-              <ul class="submenu disabled" aria-disabled="true">
-               <li><a href="Accesorios.html">Mouses y teclados</a></li>
-               <li><a href="Accesorios.html">Monitores</a></li>
-               <li><a href="Accesorios.html">Auriculares</a></li>
-               <li><a href="Accesorios.html">Gaming</a></li>
+         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand logo animate__animated animate__fadeInUp" href="index.html">WHIRLWIND GAMING</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse animate__animated animate__fadeInUp" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link activo" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Ayuda.html">FAQ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="Arma-tu-pc.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Arma tu pc
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Arma-tu-pc.html">Placas de video</a></li>
+                   <li><hr class="dropdown-divider"></li>
+                   <li><a  class="dropdown-item" href="Arma-tu-pc.html">Procesadores</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="Arma-tu-pc.html">Fuentes</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="Arma-tu-pc.html">Gabinetes</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="Arma-tu-pc.html">Motherboards</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="Arma-tu-pc.html">Memorias ram</a></li>     
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="Accesorios.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Accesorios
+              </a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <li><a class="dropdown-item" href="Accesorios.html">Mouses y teclados</a></li>
+                <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="Accesorios.html">Monitores</a></li>
+                <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="Accesorios.html">Auriculares</a></li>
+                <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="Accesorios.html">Gaming</a></li>
              </ul>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="Notbooks.html">Notebooks</a>
-                 <ul class="submenu">
-              <li><a href="Notbooks.html">Intel</a></li>
-              <li><a href="Notbooks.html">Gaming</a></li>
+              </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="Notbooks.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Notebooks
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <li><a  class="dropdown-item"href="Notbooks.html"> Intel</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li<a  class="dropdown-item" href="Notbooks.html"> Gaming</a></li>
+             </ul>
+            </li>
             </ul>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="Ayuda.html">Ayuda</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+          </nav>
+</div>
    </header>
        <hr> 
-       <div class=" align-content-md-center padding-row row container-fluid"><!--Seccion y precios de placas-->
+       <div class=" align-content-md-center padding-row row">
+           <!--Seccion y precios de placas-->
            <h2>Placas de video</h2>
            <div class="p-0 p-md-2 producto-box col">
                <div class="card">
@@ -78,7 +98,7 @@
                    </div>
                    <div class="card-body">
                        <h3 class="card-title">
-                           <a href="#">Placa de video 3060 RTX</a>
+                           <p>Placa de video 3060 RTX</p>
                        </h3>
                    </div>
                </div>
@@ -92,7 +112,7 @@
                  </div>
                  <div class="card-body">
                      <h3 class="card-title">
-                         <a href="#">Placa de video RTX 3070 Phantom edition</a>
+                         <p>Placa de video RTX 3070 Phantom edition</p>
                      </h3>
                  </div>    
                  </div>                 
@@ -106,7 +126,7 @@
                     </div>
                     <div class="card-body">
                      <h3 class="card-title">
-                         <a href="#">Placa de video Nvidia 2060 super Palit edition</a>
+                         <p>Placa de video Nvidia 2060 super Palit edition</p>
                      </h3>
                     </div>
                 </div>
@@ -120,7 +140,7 @@
                     </div>
                     <div class="card-body">
                     <h3 class="card-title"> 
-                       <a href="#">Placa de video nvidia 3090 RTX</a>
+                       <p>Placa de video nvidia 3090 RTX</p>
                     </h3>
                     </div>
                 </div>
@@ -134,7 +154,7 @@
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">
-                            <a href="#">Placa de vieo Nvidia 3080RTX</a>
+                            <p>Placa de vieo Nvidia 3080RTX</p>
                         </h3>
                     </div>
                 </div>
@@ -149,17 +169,14 @@
                     </div>
                      <div class="card-body">
                          <h3 class="card-title">
-                        <a href="#"> Placa de video Radeon 6700RTX</a>
+                        <p> Placa de video Radeon 6700RTX</p>
                          </h3>
 
                      </div>
-                </div>
-            
-            
-                
-                
+                </div>    
             </div>
-        </div> 
+            </div>
+       
         <!--Seccion de gabinetes-->
         <div class="align-content-md-center padding-row row">
            <h2>Gabinetes</h2>
@@ -172,7 +189,7 @@
                    </div>
                    <div class="card-body">
                        <h3 class="card-title">
-                           <a href="#">Gabinete Gaming</a>
+                           <p>Gabinete Gaming</p>
                        </h3>
                    </div>
                </div>
@@ -186,7 +203,7 @@
                   </div> 
                   <div class="card-body">
                       <h3 class="card-title">
-                          <a href="#"> Gabinete</a>
+                          <p> Gabinete</p>
                       </h3>
                   </div>
                </div>
@@ -207,7 +224,7 @@
                      </div>
                      <div class="card-body">
                       <h3 class="card-title">
-                          <a href="#">intel core i9</a>
+                          <p>intel core i9</p>
                       </h3>
                      </div>
                 </div>
@@ -222,7 +239,7 @@
                     </div>
                    <div class="card-body">
                     <h3 class="card-title">
-                        <a href="#">Procesador Intel i5</a>
+                        <p>Procesador Intel i5</p>
                     </h3>
                    </div> 
 
@@ -243,7 +260,7 @@
                    </div>
                    <div class="card-body">
                       <h3 class="card-title">
-                          <a href="#">Mother Aorus Master</a>
+                          <p>Mother Aorus Master</p>
                       </h3>
                    </div>
                 </div>
@@ -258,7 +275,7 @@
                   </div>
                   <div class="card-body">
                       <h3 class="card-title"> 
-                      <a href="#">Mother Gigabyte</a>
+                      <p>Mother Gigabyte</p>
                       </h3>
                   </div>
                 </div>
@@ -272,7 +289,7 @@
                     </div>
                     <div class="card-body">
                      <h3 class="card-title">
-                      <a href="#">Mother Rog Maximus</a>
+                      <p>Mother Rog Maximus</p>
                      </h3>
                     </div>
                 </div>
@@ -286,7 +303,7 @@
              </div>
              <div class="card-body">
                 <h3 class="card-title">
-                    <a href="#">Mother A320M</a>
+                    <p>Mother A320M</p>
                 </h3>
              </div>
             </div>
@@ -295,7 +312,7 @@
        </div>
 
      
-    <footer><!--Van a ir las redes sociales-->
+    <footer class="container-footer"><!--Van a ir las redes sociales-->
         <section>
      <ul class="redes">
        <li>

@@ -26,7 +26,9 @@ h1, h2, h3{
 
 }
 
-
+h2{
+    font-size: 35px;
+}
  
 p {
    font-family: Roboto;
@@ -51,7 +53,10 @@ p {
               
 }
 
-/*menu y nav */
+
+
+
+/*menu y nav /
 .navegacion {
 
   align-items: center;
@@ -95,32 +100,39 @@ p {
     box-shadow: 0 0 5px;
 }
 
-/*sub menu*/
-.submenu {
-    margin:1;
-    position: absolute;
-    width: 120%;
-    visibility: hidden;
-    background-color: black
-}
+/*sub menu/
+    .submenu {
+        margin:1;
+        position: absolute;
+        width: 120%;
+        visibility: hidden;
+        background-color: black
+    }
 
-.submenu li a {
+    .submenu li a {
 
-    display: block;
-    padding: 90px auto;
-    color: whitesmoke;
-    font-family: Roboto;
-    text-decoration: none;
-    font-size: 15px;
+        display: block;
+        padding: 90px auto;
+        color: whitesmoke;
+        font-family: Roboto;
+        text-decoration: none;
+        font-size: 15px;
 
-}
+    }
 
-.menu li:hover .submenu {
+    .menu li:hover .submenu {
 
-    visibility: visible;
-}
+        visibility: visible;
+    }
 /*fin menu*/
-
+/*Banners*/
+.Back-FAQ{
+    background-image: url(../Imagenes/Back-Ayuda.jpg);
+     background-size: cover;
+     height: 800px;
+     background-repeat: no-repeat;
+     background-position-y: -120px;
+}
 
 /*Productos-cards*/
 .row {
@@ -215,6 +227,14 @@ p {
 }
 /*Fin cards*/
 /*Redes*/
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
 
 .redes {
     position: relative;
@@ -304,7 +324,7 @@ p {
 @media only screen and (max-width: 640px) {
 
     body {
-        background-image: url(https://www.logg.com.ar/static/NewPublic/img/background/mobile-background.png);
+        background-image: url(https://www.logg.com.ar/static/NewPublic/img/background/wallpaper-triangles-geometry-black-m_TY96XXD.jpg);
         background-size: cover;
         background-attachment: fixed;
     }
@@ -317,7 +337,7 @@ p {
 @media only screen and (max-width: 1024px) {
 
     body {
-        background-image: url(https://www.logg.com.ar/static/NewPublic/img/background/mobile-background.png);
+        background-image: url(https://www.logg.com.ar/static/NewPublic/img/background/wallpaper-triangles-geometry-black-m_TY96XXD.jpg);
         background-size: cover;
         background-attachment: fixed;
     }
